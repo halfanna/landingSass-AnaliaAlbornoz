@@ -1,0 +1,40 @@
+@import '../base/estilosGenerales.scss';
+
+.galeria-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 350px;
+    gap: 35px;
+
+    @media only screen and (max-width: 600px) {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+
+    .item-uno {
+        grid-column-start: span 2;
+
+
+
+
+    }
+}
+
+
+.galeria-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+
+    .parrafo-item {
+        font-size: 25px;
+        font-weight: bolder;
+        text-align: center;
+
+
+
+    }
+
+}

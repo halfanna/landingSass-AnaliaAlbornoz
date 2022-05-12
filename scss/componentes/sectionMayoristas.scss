@@ -1,0 +1,42 @@
+@import '../base/estilosGenerales.scss';
+@import '../base/variables.scss';
+
+.mayoristas-section {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+
+    @media screen and (max-width:750px) {
+
+        flex-direction: column;
+        align-items: center;
+        font-size: 15px;
+        box-shadow: -16px 9px 5px -5px rgba(15, 14, 15, 0.75);
+        -webkit-box-shadow: -16px 9px 5px -5px rgba(15, 14, 15, 0.75);
+        -moz-box-shadow: -16px 9px 5px -5px rgba(15, 14, 15, 0.75);
+
+    }
+
+
+    .card-uno,
+    .card-dos,
+    .card-tres {
+        color:grey ;
+        margin: 50px;
+        padding: 50px;
+        text-align: left;
+        box-shadow: -8px 14px 10px 0px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: -8px 14px 10px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: -8px 14px 10px 0px rgba(0, 0, 0, 0.75);
+
+        h3 {
+            color: $color-titulo;
+            font-size: $size-titulo;
+
+            p {
+                color: $color-parrafo;
+                font-size: $size-parrafo;
+            }
+        }
+    }
+}

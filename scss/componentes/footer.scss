@@ -1,0 +1,41 @@
+@import '../base/estilosGenerales.scss';
+@import '../base/variables.scss';
+
+
+
+.footer-container {
+  text-align: center;
+  background-color: $bg-color;
+  margin-top: 50px;
+  padding: 20px 20px;
+  color: $color-subtitulos;
+  font-weight: 800;
+
+  a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+
+    &:hover {
+      color: $color-link;
+
+
+    }
+  }
+
+}
+
+.btn-style {
+  color: $bg-color;
+  font-size: 20px;
+  font-weight: bolder;
+  border: none;
+  background-color: $btn;
+  font-size: 20px;
+
+  &:hover {
+    color: rgb(245, 245, 245);
+    font-weight: bolder;
+    background-color: $btn-hover;
+  }
+}

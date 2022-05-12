@@ -1,0 +1,47 @@
+@import '../base/estilosGenerales.scss';
+
+
+
+.hero-img {
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.287), rgba(0, 0, 0, 0.299)), url(../imagenes/accesoriosdemoda.jpg);
+    background-position: center;    
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    .texto-hero {
+        padding: 150px;
+        text-align: left;
+        font-weight: 700;
+        color: nth($colores , 1);
+    
+        .summit-style {
+            color: nth($colores, 5 );
+            background-color: rgb(245, 245, 245);
+            font-weight: 900;
+            border-radius: 5px;
+            padding: 10px 5px;
+            width: 100px;
+
+
+            &:hover {
+                color:nth($colores, 2 );
+                font-weight: bolder;
+                background-color: rgba(0, 0, 0, 0.26);
+            
+
+                @media screen and (max-width: 600px) {
+                    
+                        flex-direction: column;
+                        align-items: center;
+                    
+
+                
+
+                }
+            }
+        }
+    }
+}
