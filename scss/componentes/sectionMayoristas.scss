@@ -1,7 +1,8 @@
-@import '../base/estilosGenerales.scss';
-@import '../base/variables.scss';
+@import '../base/_estilosGenerales';
+@import '../base/_variables';
 
 .mayoristas-section {
+    // aca un mixin
     display: flex;
     justify-content: space-between;
     text-align: left;

@@ -1,8 +1,9 @@
-@import '../base/estilosGenerales.scss';
+@import '../base/_estilosGenerales';
 
 
 
 .hero-img {
+    // aca un extend
     display: flex;
     justify-content: center;
     background-image: linear-gradient(rgba(0, 0, 0, 0.287), rgba(0, 0, 0, 0.299)), url(../imagenes/accesoriosdemoda.jpg);

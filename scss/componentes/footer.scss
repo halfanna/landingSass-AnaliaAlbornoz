@@ -1,5 +1,5 @@
-@import '../base/estilosGenerales.scss';
-@import '../base/variables.scss';
+
+@import '../base/_variables';
 
 
 
@@ -26,6 +26,7 @@
 }
 
 .btn-style {
+  // ACA UN MAPA
   color: $bg-color;
   font-size: 20px;
   font-weight: bolder;
