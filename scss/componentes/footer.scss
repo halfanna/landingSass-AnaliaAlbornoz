@@ -1,5 +1,6 @@
 
 @import '../base/_variables';
+@import'../base/_mapas';
 
 
 
@@ -26,13 +27,13 @@
 }
 
 .btn-style {
-  // ACA UN MAPA
-  color: $bg-color;
-  font-size: 20px;
-  font-weight: bolder;
+
+  color:map-get($boton-footer,font-color);
+  font-size: map-get($boton-footer ,font-size);
+  font-weight: map-get($boton-footer , font-weight);
   border: none;
-  background-color: $btn;
-  font-size: 20px;
+  background-color:map-get($boton-footer, bg-color);
+  
 
   &:hover {
     color: rgb(245, 245, 245);

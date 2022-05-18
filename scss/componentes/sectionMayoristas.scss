@@ -1,10 +1,10 @@
 @import '../base/_estilosGenerales';
 @import '../base/_variables';
+@import '../base/_mixin';
 
 .mayoristas-section {
-    // aca un mixin
-    display: flex;
-    justify-content: space-between;
+    @include flex (flex,center,center);
+  
     text-align: left;
 
     @media screen and (max-width:750px) {

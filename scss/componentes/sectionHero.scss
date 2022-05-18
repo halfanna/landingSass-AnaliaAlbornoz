@@ -3,9 +3,8 @@
 
 
 .hero-img {
-    // aca un extend
-    display: flex;
-    justify-content: center;
+    
+    @extend %flex;
     background-image: linear-gradient(rgba(0, 0, 0, 0.287), rgba(0, 0, 0, 0.299)), url(../imagenes/accesoriosdemoda.jpg);
     background-position: center;    
     background-repeat: no-repeat;

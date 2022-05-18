@@ -1,14 +1,7 @@
- CREAR UN MAPA , UN MIXIN Y UN EXTEND
-
- 
-
-
-
- EXPLICAR EN UN DOCUMENTO CAMBIE ESTOS TITULOS , ECT
- 
- SEO
+SEO CAMBIOS
  ---------------------------------------
   1 -Cambie el title - agregue caracteres
   2 - Cambie los encabezados h1 - h6 
   3 - Agregue la etiqueta meta description
-  4- Agregue la eqtiqueta meta keywords
+  4- Agregue la etiqueta meta keywords
+  5- Agregue opengraph .. no complete la url

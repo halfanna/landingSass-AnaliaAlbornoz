@@ -1,6 +1,8 @@
-@import '../scss/base/estilosGenerales.scss';
-@import '../scss/componentes/header.scss';
-@import '../scss/componentes/sectionHero.scss';
-@import'../scss/componentes/sectionMayoristas.scss';
-@import'../scss/componentes/articulos.scss';
-@import'../scss/componentes/footer.scss';
+@import '../scss/base/_estilosGenerales';
+@import '../scss/componentes/header';
+@import '../scss/componentes/sectionHero';
+@import'../scss/componentes/sectionMayoristas';
+@import'../scss/componentes/articulos';
+@import'../scss/componentes/footer';
+@import'../scss/base/_mapas';
+@import '../scss/base/extends';
