@@ -2,8 +2,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,300&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -13,20 +11,11 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  font-family: "Montserrat", sans-serif;
-}
-
-.principal-cartel {
+.principal-cartel .titulo-cartel {
+  font-size: 25px;
   background-color: rgb(0, 0, 0);
   color: #F6F6F6;
   text-align: center;
-  font-size: 18px;
   animation-name: titulo;
   animation-duration: 30s;
 }
@@ -52,9 +41,12 @@ body {
 .header {
   color: black;
 }
-.header .nav-link {
-  font-weight: 600;
-  font-size: 18px;
+.header .titulo-marca {
+  font-size: 35px;
+}
+.header .titulo-marca .nav-style a {
+  font-weight: bolder;
+  font-size: 25px;
 }
 
 * {
@@ -182,15 +174,6 @@ body {
   font-size: 25px;
   font-weight: bolder;
   text-align: center;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  font-family: "Montserrat", sans-serif;
 }
 
 .footer-container {

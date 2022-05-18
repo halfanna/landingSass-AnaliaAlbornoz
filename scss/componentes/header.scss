@@ -1,43 +1,56 @@
-
 @import '../base/_listas';
 
-.principal-cartel{
-    background-color: rgb(0, 0, 0);
-    color: nth($colores ,4 );
-    text-align: center;
-    font-size: nth($font-size , 2 );
-    animation-name: titulo;
-    animation-duration: 30s;
-    @keyframes titulo {
-        0% {
-            color: #EE5007;
-        }
-    
-        25% {
-            color: #F900BF;
-            left: 200px;
-        }
-    
-        50% {
-            color: #FFE400;
-        }
-    
-        75% {
-            color: #1CC5DC;
-        }
-    
-        100% {
-            color: #93329E;
-        }
-    
-       
+.principal-cartel {
+    .titulo-cartel {
+        font-size: nth($font-size, 3);
+        background-color: rgb(0, 0, 0);
+        color: nth($colores, 4);
+        text-align: center;
+        animation-name: titulo;
+        animation-duration: 30s;
+
+        @keyframes titulo {
+            0% {
+                color: #EE5007;
+            }
+
+            25% {
+                color: #F900BF;
+                left: 200px;
+            }
+
+            50% {
+                color: #FFE400;
+            }
+
+            75% {
+                color: #1CC5DC;
+            }
+
+            100% {
+                color: #93329E;
+            }
+
+
         }
     }
-    
-  .header{
-      color: black;
-      .nav-link{
-         font-weight: 600;
-         font-size: nth($font-size, 2 );
+}
+
+
+.header {
+    color: black;
+
+    .titulo-marca {
+        font-size: nth($font-size, 5);
+
+        .nav-style a {
+
+            font-weight: bolder;
+            font-size: nth($font-size, 3);
+
+
+
+
+        }
     }
-  }
+}
